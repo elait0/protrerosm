@@ -1,0 +1,91 @@
+/*estilo del header*/
+header{
+    padding: 60px;
+    text-align: center;
+    background-image: url(../img/jojo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header div {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba (131, 22, 22, 0.568);
+    background-image: linear-gradient(rgba(201, 12, 12, 0.523), rgb(45, 45, 29) );
+    color: antiquewhite;
+    font-size: 1.1rem;}
+    
+     @media (max-width: 800px) {
+        header {
+            background-position: center;
+        }
+    } 
+    /* modificacion del navbar */
+      .navbar {
+        position: sticky !important;
+        top: 0 !important; 
+     } 
+       /* estilo del formulario */
+       form {
+        padding: 40px;
+        background-color: rgba(26, 37, 63, 0.729);
+        border: 5px outset #1b104983;
+        text-align: center;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+       }
+       /* estilo del label */
+       label {
+        background-color: rgb(88, 111, 95);
+        color: aliceblue;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+        width: 100%;
+    }
+       fieldset {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 10px double tan;
+        padding: 20px;
+        width: 80%;
+        max-width: 500px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        }
+        input {
+            text-align: center;
+            margin-top: 10px;
+            padding: 10px;
+            width: 100%;
+            border-radius: 10px;
+        }
+
+       label, input {
+        width: 50%;
+        font-size: medium;
+        border-radius: 10px;
+
+       }
+       input [type="reset"] :hover {
+        background-color: crimson;
+        font-size: 20px;
+       }
+       input [type="submit"] :hover {
+        background-color: rgb(63, 39, 118);
+        font-size: 20px;
+       }
+       legend {
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+       }
+       footer {
+        background-color: black;
+        color: antiquewhite;
+        padding: 10px;
+        text-align: center;
+       }

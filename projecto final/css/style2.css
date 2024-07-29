@@ -1,0 +1,113 @@
+/* Estilos del body*/
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+     background-color: #ffffff; 
+}
+/* estilo del header */
+header {
+     background: #8c24a3; 
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+}
+/* modificacion del main */
+main {
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* estilo del footer */
+footer {
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Estilos de los personajes */
+.character {
+    background: #131f35;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.character h2 {
+    margin-top: 0;
+}
+
+
+/* Media queries para diseño responsive */
+ @media (min-width: 600px) {
+    main, aside {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    aside {
+        order: 2;
+    }
+    
+    main {
+        order: 1;
+        flex-basis: 70%;
+    }
+
+    .character {
+        flex: 1 1 calc(50% - 1rem);
+        margin: 0.5rem;
+    }
+}
+
+@media (min-width: 900px) {
+    main, aside {
+        flex-wrap: nowrap;
+    }
+
+    main {
+        flex-basis: 75%;
+    }
+
+    aside {
+        flex-basis: 20%;
+    }
+
+    .character {
+        flex: 1 1 calc(33% - 1rem);
+    }
+} 
+
+/* modificacion de las imagenes */
+.tusk {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ff {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+/* modificacion del navbar */
+.navbar {
+   position: sticky !important;
+   top: 0 !important;
+}
+/* modificacion de la tabla */
+td {
+    background-color: #2f827776 !important;
+     border: 5px !important; 
+}
+th {
+    background-color: #131f35ae !important;
+    border: 5px !important;
+}
+tr {
+    background-color: #131f35 !important;
+}

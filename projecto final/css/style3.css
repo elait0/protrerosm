@@ -1,0 +1,95 @@
+/* estilo del body */
+body {
+    line-height: 1.6;
+     margin: 0;
+    padding: 0;
+     display: flex;
+    flex-direction: column;
+     align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* estilo del header */
+header {
+    background-color: #4b2183;;
+    color: #ffffff;
+    padding: 30px;
+    width: 100%;
+    text-align: center
+}
+/* estilo del footer */
+footer {
+  background-color: #000000;
+    color: #ddd;
+    padding: 20px;
+    width: 100%;
+    text-align: center; 
+}
+/* estilo del main */
+main {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    background-color: #193b40;
+   }
+/* modificacion del section */
+section {
+    margin-bottom: 20px;
+
+}
+/* estilo del h2 */
+h2 {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+}
+/* esrilo del article */
+article {
+    background-color: #366679;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+/* estilo del aside */
+aside {
+    background-color: #28625796;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+/* estilo del footer */
+footer p {
+    margin: 0%;
+}
+/* Media queries para diseño responsive */
+@media (max-width: 800px) {
+    main, aside {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    article {
+        padding: 5px;
+    }
+}
+/* modificacion de las imagenes */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+/* modificacion del navbar */
+.navbar {
+    position: sticky !important;
+    top: 0 !important;
+    width: 100%;
+ }
+ .rr {
+    text-decoration: none;
+    color: azure;
+ }
